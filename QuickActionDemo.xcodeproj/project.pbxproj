@@ -6,13 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		980FEA972CAE105900315999 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 980FEA962CAE105900315999 /* .gitignore */; };
+		980FEA992CAE106000315999 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 980FEA982CAE106000315999 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		980FEA962CAE105900315999 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		980FEA982CAE106000315999 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		980FEAC12CAE305100315999 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		98B97D982CAA7F5200615D04 /* QuickActionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickActionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		98B97DB52CAA9AC700615D04 /* Exceptions for "QuickActionDemo" folder in "QuickActionDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98B97D972CAA7F5200615D04 /* QuickActionDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		98B97D9A2CAA7F5200615D04 /* QuickActionDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98B97DB52CAA9AC700615D04 /* Exceptions for "QuickActionDemo" folder in "QuickActionDemo" target */,
+			);
 			path = QuickActionDemo;
 			sourceTree = "<group>";
 		};
@@ -32,6 +53,9 @@
 		98B97D8F2CAA7F5200615D04 = {
 			isa = PBXGroup;
 			children = (
+				980FEA962CAE105900315999 /* .gitignore */,
+				980FEAC12CAE305100315999 /* demo.gif */,
+				980FEA982CAE106000315999 /* README.md */,
 				98B97D9A2CAA7F5200615D04 /* QuickActionDemo */,
 				98B97D992CAA7F5200615D04 /* Products */,
 			);
@@ -109,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980FEA972CAE105900315999 /* .gitignore in Resources */,
+				980FEA992CAE106000315999 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +280,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"QuickActionDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickActionDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +309,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"QuickActionDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickActionDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
